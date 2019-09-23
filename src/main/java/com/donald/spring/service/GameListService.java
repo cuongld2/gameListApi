@@ -1,25 +1,25 @@
 package com.donald.spring.service;
 
-import com.donald.spring.model.Book;
+import com.donald.spring.model.GameList;
 
 import java.util.List;
 
-public interface BookService {
+public interface GameListService {
 
     // Save the record
-    long save(Book book);
+    long save(GameList gameList);
 
     // Get a single record
-    Book get(long id);
+    GameList get(long id);
 
 
     // Get all the records
 
-    List<Book> list();
+    List<GameList> list();
 
 
     // Update the record
-    void update(long id, Book book);
+    void update(long id, GameList gameList);
 
     // Delete a record
     void delete(long id);
